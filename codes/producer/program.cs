@@ -37,7 +37,7 @@ namespace EnvioKafka
             while(true)
             {
                 logger.Information("Waiting");
-                Thread.Sleep(10);
+                Thread.Sleep(1000);
                 logger.Information("sending");
                 try
                 {

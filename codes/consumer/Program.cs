@@ -20,6 +20,7 @@ class Program
 
         using (var c = new ConsumerBuilder<Ignore, string>(conf).Build())
         {
+            Thread.Sleep(1000);
             c.Subscribe("my-topic-three-0");
 
             CancellationTokenSource cts = new CancellationTokenSource();
