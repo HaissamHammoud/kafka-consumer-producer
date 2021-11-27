@@ -1,0 +1,7 @@
+*.dll
+codes/bin
+codes/producer/bin
+codes/producer/obj
+codes/consumer/bin
+codes/consumer/obj
+/codes/obj
